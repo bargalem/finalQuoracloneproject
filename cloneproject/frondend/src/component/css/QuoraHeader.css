@@ -1,0 +1,219 @@
+.qHeader{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 100;
+    box-shadow: 2px 3px 6px rgba(187,187,187,0.5);
+    justify-content: center;
+    padding: 3px;
+}
+.qHeader-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qHeader-logo>img{
+    height: 30px;
+    object-fit: contain;
+}
+.qHeader-logo>img:hover{
+   cursor: pointer;
+}
+.qHeader-icons{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+}
+.qHeader-icon:hover{
+    background-color: #eee;
+    border-radius: 5px;
+}
+.qHeader-icon > .MuiSvgIcon-root{
+    color: gray;
+    font-size: xx-large;
+margin-left: 20px;
+margin-right: 20px;
+}
+.qHeader-input{
+    display: flex;
+    align-items: center; 
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
+.qHeader-input >input{
+   border: none; 
+   outline: none;
+   background-color: transparent;
+   font-size: medium;
+   padding: 5px;
+   color: rgb(49,49,49);
+}
+
+.qHeader-input > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.qHeader-Rem{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+
+}
+
+.qHeader-Rem-avatar{
+cursor: pointer;
+}
+.qHeader-Rem > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.qHeader-Rem > .MuiSvgIcon-root:hover{
+    color: black;
+}
+.qHeader-Rem > .MuiButton-root{
+    color: #fff;
+    background-color: #222;
+    text-transform: inherit;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.qHeader-Rem > .MuiButton-root:hover{
+    color: #222;
+    background-color: rgb(214,214,214);
+}
+
+
+.modal-Title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(187,187,187);
+}
+.modal-Title>h5{
+color: grey;
+font-size: 20px;
+cursor: pointer;
+font-weight: 500;
+margin-right: 30px;
+}
+.modal-Title>h5:hover{
+    color: #b92b27;
+}
+
+.modal-info{
+display: flex;
+align-items: center;
+margin-top: 10px;
+}
+.modal-info>p{
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+
+}
+.modal-info>.modal-scop{
+display: flex;
+align-items: center;
+color: rgb(98,98,98);
+padding: 5px;
+margin-left: 10px;
+background-color: rgb(230,230,230);
+border-radius: 33px;
+cursor: pointer;
+
+}
+
+.madal-filed{
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+flex: 1;
+
+}
+.madal-filed >.madal-fildlink{
+color: gray;
+display: flex;
+margin-top: 10px;
+align-items: center;
+}
+.madal-fildlink>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    margin-top: 5px ;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.modal-button{
+display: flex;
+flex-direction: column-reverse;
+margin-top: 10px;
+border: none;
+    outline: none;
+    color: rgb(141, 139, 139);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.modal-button>.cancle{
+margin-top: 10px;
+border: none;
+    outline: none;
+   background-color: rgb(175, 174, 174);
+
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 20%;
+   
+}
+
+.modal-button>.add{
+    margin-top: 30px;
+        border: none;
+        outline: none;
+        color: gray;
+        background-color: #222;
+        width: 50%;
+        color: white;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 33px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .modal-button>.add:hover{
+background-color: #eee;
+color: #222;
+    }
+
+
+@media only screen and (max-width:600px){
+    .qHeader-icons{
+        display: none;
+
+    }
+    
+.qHeader-input{
+    display: none;
+    
+}
+
+
+}
+

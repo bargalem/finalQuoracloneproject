@@ -1,0 +1,12 @@
+
+button::selection{
+    outline: none !important;
+
+}
+input[type="button"]{
+    outline: none !important;
+}
+button:focus{
+    outline: none !important;
+
+}

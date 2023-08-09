@@ -1,0 +1,29 @@
+.Widgent-Contents{
+display: flex;
+cursor: pointer;
+
+
+}
+.Widgent-Content{
+margin: 5px;
+display: flex;
+padding: 5px;
+border-bottom: 1px solid lightgrey;
+}
+.Widgent-Content>img{
+    height: 30px;
+    border-radius: 5px;
+}
+.Widgent-ContentTitle{
+    margin-left: 10px;
+}
+.Widgent-ContentTitle>h5{
+    color: rgb(70,68,68);
+
+}
+.Widgent-ContentTitle>p{
+    color: gray;
+    font-size: small;
+
+}
+

@@ -1,0 +1,24 @@
+.Widget{
+    flex: 0.2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    height: fit-content;
+}
+.Widget-Header{
+    border-bottom: 1px solid lightgray;
+}
+.Widget-Header>h5{
+    padding: 10px;
+    color: rgb(80,80,80);
+    font-size: 15px;
+    letter-spacing: 1.1px;
+}
+.Widget-contents{
+    display: flex;
+    flex-direction: column;
+}
